@@ -1,4 +1,4 @@
-# Quiz aletorios verção 01
+# Quiz versão 01
  
  ## Tecnologias utilizadas
  
