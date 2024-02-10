@@ -1,14 +1,14 @@
 const perguntas = [
     {
-        pergunta: "Qual é o nome completo do ator Adam Driver?",
-        respostas: [
-          "Adam Paul Driver",
-          "Adam Douglas Driver",
-          "Adam Robert Driver",
+      pergunta: "Qual é o nome completo do ator Adam Driver?",
+      respostas: [
+        "Adam Paul Driver",
+        "Adam Douglas Driver",
+        "Adam Robert Driver",
         ],
-        correta: 1 // A resposta correta é a opção B (Adam Douglas Driver)
-      },
-      {
+      correta: 1 // A resposta correta é a opção B (Adam Douglas Driver)
+    },
+    {
         pergunta: "Em qual filme Adam Driver interpretou o personagem Kylo Ren?",
         respostas: [
           "Star Wars: O Despertar da Força",
@@ -16,8 +16,8 @@ const perguntas = [
           "Star Wars: A Ascensão Skywalker",
         ],
         correta: 0 // A resposta correta é a opção A (Star Wars: O Despertar da Força)
-      },
-      {
+    },
+    {
         pergunta: "Qual filme rendeu a Adam Driver sua primeira indicação ao Oscar de Melhor Ator?",
         respostas: [
           "Infiltrado na Klan",
@@ -25,8 +25,8 @@ const perguntas = [
           "Paterson",
         ],
         correta: 1 // A resposta correta é a opção B (História de um Casamento)
-      },
-      {
+    },
+    {
         pergunta: "Qual é a altura aproximada de Adam Driver?",
         respostas: [
           "1,85 metros",
@@ -34,8 +34,8 @@ const perguntas = [
           "1,95 metros",
         ],
         correta: 0 // A resposta correta é a opção A (1,85 metros)
-      },
-      {
+    },
+    {
         pergunta: "Em qual ramo Adam Driver trabalhava antes de se tornar ator?",
         respostas: [
           "Militar",
@@ -43,8 +43,8 @@ const perguntas = [
           "Advogado",
         ],
         correta: 0 // A resposta correta é a opção A (Militar)
-      },
-      {
+    },
+    {
         pergunta: "Qual foi o primeiro papel de destaque de Adam Driver na televisão?",
         respostas: [
           "Girls",
@@ -52,8 +52,8 @@ const perguntas = [
           "Breaking Bad",
         ],
         correta: 0 // A resposta correta é a opção A (Girls)
-      },
-      {
+    },
+    {
         pergunta: "Qual filme dirigido por Spike Lee apresenta Adam Driver em um papel importante?",
         respostas: [
           "BlacKkKlansman: O Infiltrado",
@@ -61,8 +61,8 @@ const perguntas = [
           "Faça a Coisa Certa",
         ],
         correta: 0 // A resposta correta é a opção A (BlacKkKlansman: O Infiltrado)
-      },
-      {
+    },
+    {
         pergunta: "Adam Driver foi indicado ao Oscar por qual papel?",
         respostas: [
           "Kylo Ren em Star Wars",
@@ -70,8 +70,8 @@ const perguntas = [
           "Flip Zimmerman em Infiltrado na Klan",
         ],
         correta: 1 // A resposta correta é a opção B (Charlie Barber em História de um Casamento)
-      },
-      {
+    },
+    {
         pergunta: "Qual é a data de nascimento de Adam Driver?",
         respostas: [
           "19 de novembro de 1982",
@@ -79,8 +79,8 @@ const perguntas = [
           "15 de setembro de 1984",
         ],
         correta: 0 // A resposta correta é a opção A (19 de novembro de 1982)
-      },
-      {
+    },
+    {
         pergunta: "Em qual ramo do serviço militar Adam Driver serviu antes de se tornar ator?",
         respostas: [
           "Marines",
@@ -88,8 +88,8 @@ const perguntas = [
           "Força Aérea",
         ],
         correta: 0 // A resposta correta é a opção A (Marines)
-      },
-    ];
+    },
+  ];
   
   const quiz = document.querySelector("#quiz")
   const template = document.querySelector("template")
