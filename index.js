@@ -1,95 +1,95 @@
 const perguntas = [
     {
-      pergunta: "Qual é a forma correta de declarar uma variável em JavaScript?",
-      respostas: [
-        "vari myVar = 10;",
-        "let myVar = 10;",
-        "const myVar = 10;",
-      ],
-      correta: 1 // A resposta correta é a opção B (let myVar = 10;)
-    },
-    {
-      pergunta: "Qual é o método em JavaScript usado para remover o último elemento de um array e retorná-lo?",
-      respostas: [
-        "pop()",
-        "push()",
-        "shift()",
-      ],
-      correta: 0 // A resposta correta é a opção A (pop())
-    },
-    {
-      pergunta: "Qual é a saída do código 'console.log(1 + '2' + 3)'?",
-      respostas: [
-        "123",
-        "6",
-        "15",
-      ],
-      correta: 0 // A resposta correta é a opção A (123)
-    },
-    {
-      pergunta: "O que o método 'map()' faz em um array JavaScript?",
-      respostas: [
-        "Altera o tamanho do array",
-        "Itera sobre cada elemento do array e retorna um novo array",
-        "Adiciona um novo elemento no final do array",
-      ],
-      correta: 1 // A resposta correta é a opção B (Itera sobre cada elemento do array e retorna um novo array)
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em JavaScript?",
-      respostas: [
-        "Atribuição",
-        "Comparação estrita (igualdade em valor e tipo)",
-        "Comparação solta (igualdade em valor apenas)",
-      ],
-      correta: 1 // A resposta correta é a opção B (Comparação estrita - igualdade em valor e tipo)
-    },
-    {
-      pergunta: "Qual é o resultado da expressão 'typeof([])'?",
-      respostas: [
-        "Array",
-        "Object",
-        "Function",
-      ],
-      correta: 1 // A resposta correta é a opção B (Object)
-    },
-    {
-      pergunta: "Como você converte uma string em um número em JavaScript?",
-      respostas: [
-        "parseInt()",
-        "toFloat()",
-        "stringToNumber()",
-      ],
-      correta: 0 // A resposta correta é a opção A (parseInt())
-    },
-    {
-      pergunta: "Qual é a maneira correta de escrever um comentário de uma linha em JavaScript?",
-      respostas: [
-        "// Este é um comentário",
-        "/* Este é um comentário */",
-        "<!-- Este é um comentário -->",
-      ],
-      correta: 0 // A resposta correta é a opção A (// Este é um comentário)
-    },
-    {
-      pergunta: "Qual método JavaScript é usado para remover o último elemento de um array e retorná-lo?",
-      respostas: [
-        "shift()",
-        "pop()",
-        "slice()",
-      ],
-      correta: 1 // A resposta correta é a opção B (pop())
-    },
-    {
-      pergunta: "Qual é a forma correta de se declarar uma função em JavaScript?",
-      respostas: [
-        "função myFunction() {}",
-        "var myFunction = function() {}",
-        "function myFunction() {}",
-      ],
-      correta: 2 // A resposta correta é a opção C (function myFunction() {})
-    },
-  ];
+        pergunta: "Qual é o nome completo do ator Adam Driver?",
+        respostas: [
+          "Adam Paul Driver",
+          "Adam Douglas Driver",
+          "Adam Robert Driver",
+        ],
+        correta: 1 // A resposta correta é a opção B (Adam Douglas Driver)
+      },
+      {
+        pergunta: "Em qual filme Adam Driver interpretou o personagem Kylo Ren?",
+        respostas: [
+          "Star Wars: O Despertar da Força",
+          "Star Wars: O Último Jedi",
+          "Star Wars: A Ascensão Skywalker",
+        ],
+        correta: 0 // A resposta correta é a opção A (Star Wars: O Despertar da Força)
+      },
+      {
+        pergunta: "Qual filme rendeu a Adam Driver sua primeira indicação ao Oscar de Melhor Ator?",
+        respostas: [
+          "Infiltrado na Klan",
+          "História de um Casamento",
+          "Paterson",
+        ],
+        correta: 1 // A resposta correta é a opção B (História de um Casamento)
+      },
+      {
+        pergunta: "Qual é a altura aproximada de Adam Driver?",
+        respostas: [
+          "1,85 metros",
+          "1,90 metros",
+          "1,95 metros",
+        ],
+        correta: 0 // A resposta correta é a opção A (1,85 metros)
+      },
+      {
+        pergunta: "Em qual ramo Adam Driver trabalhava antes de se tornar ator?",
+        respostas: [
+          "Militar",
+          "Médico",
+          "Advogado",
+        ],
+        correta: 0 // A resposta correta é a opção A (Militar)
+      },
+      {
+        pergunta: "Qual foi o primeiro papel de destaque de Adam Driver na televisão?",
+        respostas: [
+          "Girls",
+          "Brooklyn Nine-Nine",
+          "Breaking Bad",
+        ],
+        correta: 0 // A resposta correta é a opção A (Girls)
+      },
+      {
+        pergunta: "Qual filme dirigido por Spike Lee apresenta Adam Driver em um papel importante?",
+        respostas: [
+          "BlacKkKlansman: O Infiltrado",
+          "Infiltrado na Klan",
+          "Faça a Coisa Certa",
+        ],
+        correta: 0 // A resposta correta é a opção A (BlacKkKlansman: O Infiltrado)
+      },
+      {
+        pergunta: "Adam Driver foi indicado ao Oscar por qual papel?",
+        respostas: [
+          "Kylo Ren em Star Wars",
+          "Charlie Barber em História de um Casamento",
+          "Flip Zimmerman em Infiltrado na Klan",
+        ],
+        correta: 1 // A resposta correta é a opção B (Charlie Barber em História de um Casamento)
+      },
+      {
+        pergunta: "Qual é a data de nascimento de Adam Driver?",
+        respostas: [
+          "19 de novembro de 1982",
+          "21 de outubro de 1983",
+          "15 de setembro de 1984",
+        ],
+        correta: 0 // A resposta correta é a opção A (19 de novembro de 1982)
+      },
+      {
+        pergunta: "Em qual ramo do serviço militar Adam Driver serviu antes de se tornar ator?",
+        respostas: [
+          "Marines",
+          "Exército",
+          "Força Aérea",
+        ],
+        correta: 0 // A resposta correta é a opção A (Marines)
+      },
+    ];
   
   const quiz = document.querySelector("#quiz")
   const template = document.querySelector("template")
