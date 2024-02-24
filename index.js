@@ -1,95 +1,95 @@
 const perguntas = [
-    {
-      pergunta: "Qual é o nome completo do ator Adam Driver?",
-      respostas: [
-        "Adam Paul Driver",
-        "Adam Douglas Driver",
-        "Adam Robert Driver",
-        ],
-      correta: 1 // A resposta correta é a opção B (Adam Douglas Driver)
-    },
-    {
-        pergunta: "Em qual filme Adam Driver interpretou o personagem Kylo Ren?",
-        respostas: [
-          "Star Wars: O Despertar da Força",
-          "Star Wars: O Último Jedi",
-          "Star Wars: A Ascensão Skywalker",
-        ],
-        correta: 0 // A resposta correta é a opção A (Star Wars: O Despertar da Força)
-    },
-    {
-        pergunta: "Qual filme rendeu a Adam Driver sua primeira indicação ao Oscar de Melhor Ator?",
-        respostas: [
-          "Infiltrado na Klan",
-          "História de um Casamento",
-          "Paterson",
-        ],
-        correta: 1 // A resposta correta é a opção B (História de um Casamento)
-    },
-    {
-        pergunta: "Qual é a altura aproximada de Adam Driver?",
-        respostas: [
-          "1,85 metros",
-          "1,90 metros",
-          "1,95 metros",
-        ],
-        correta: 0 // A resposta correta é a opção A (1,85 metros)
-    },
-    {
-        pergunta: "Em qual ramo Adam Driver trabalhava antes de se tornar ator?",
-        respostas: [
-          "Militar",
-          "Médico",
-          "Advogado",
-        ],
-        correta: 0 // A resposta correta é a opção A (Militar)
-    },
-    {
-        pergunta: "Qual foi o primeiro papel de destaque de Adam Driver na televisão?",
-        respostas: [
-          "Girls",
-          "Brooklyn Nine-Nine",
-          "Breaking Bad",
-        ],
-        correta: 0 // A resposta correta é a opção A (Girls)
-    },
-    {
-        pergunta: "Qual filme dirigido por Spike Lee apresenta Adam Driver em um papel importante?",
-        respostas: [
-          "BlacKkKlansman: O Infiltrado",
-          "Infiltrado na Klan",
-          "Faça a Coisa Certa",
-        ],
-        correta: 0 // A resposta correta é a opção A (BlacKkKlansman: O Infiltrado)
-    },
-    {
-        pergunta: "Adam Driver foi indicado ao Oscar por qual papel?",
-        respostas: [
-          "Kylo Ren em Star Wars",
-          "Charlie Barber em História de um Casamento",
-          "Flip Zimmerman em Infiltrado na Klan",
-        ],
-        correta: 1 // A resposta correta é a opção B (Charlie Barber em História de um Casamento)
-    },
-    {
-        pergunta: "Qual é a data de nascimento de Adam Driver?",
-        respostas: [
-          "19 de novembro de 1982",
-          "21 de outubro de 1983",
-          "15 de setembro de 1984",
-        ],
-        correta: 0 // A resposta correta é a opção A (19 de novembro de 1982)
-    },
-    {
-        pergunta: "Em qual ramo do serviço militar Adam Driver serviu antes de se tornar ator?",
-        respostas: [
-          "Marines",
-          "Exército",
-          "Força Aérea",
-        ],
-        correta: 0 // A resposta correta é a opção A (Marines)
-    },
-  ];
+  {
+    pergunta: "Qual é o jogo eletrônico mais vendido de todos os tempos?",
+    respostas: [
+      "Minecraft",
+      "Tetris",
+      "Grand Theft Auto V",
+    ],
+    correta: 1 // A resposta correta é a opção B (Tetris)
+  },
+  {
+    pergunta: "Em qual jogo os jogadores controlam personagens chamados 'Sims' e simulam a vida cotidiana?",
+    respostas: [
+      "Minecraft",
+      "The Sims",
+      "Grand Theft Auto V",
+    ],
+    correta: 1 // A resposta correta é a opção B (The Sims)
+  },
+  {
+    pergunta: "Qual é o nome do famoso mascote da Nintendo, que é um encanador e estrela de vários jogos?",
+    respostas: [
+      "Sonic",
+      "Pikachu",
+      "Mario",
+    ],
+    correta: 2 // A resposta correta é a opção C (Mario)
+  },
+  {
+    pergunta: "Qual é o jogo que popularizou o gênero 'Battle Royale'?",
+    respostas: [
+      "Fortnite",
+      "PUBG (PlayerUnknown's Battlegrounds)",
+      "Apex Legends",
+    ],
+    correta: 1 // A resposta correta é a opção B (PUBG)
+  },
+  {
+    pergunta: "Qual é o nome do protagonista da série de jogos 'The Legend of Zelda'?",
+    respostas: [
+      "Ganondorf",
+      "Link",
+      "Zelda",
+    ],
+    correta: 1 // A resposta correta é a opção B (Link)
+  },
+  {
+    pergunta: "Qual jogo foi lançado em 1996 e é frequentemente citado como um dos melhores de todos os tempos?",
+    respostas: [
+      "Final Fantasy VII",
+      "Super Mario 64",
+      "The Legend of Zelda: Ocarina of Time",
+    ],
+    correta: 2 // A resposta correta é a opção C (The Legend of Zelda: Ocarina of Time)
+  },
+  {
+    pergunta: "Qual é o nome do protagonista da série de jogos 'God of War'?",
+    respostas: [
+      "Kratos",
+      "Ares",
+      "Zeus",
+    ],
+    correta: 0 // A resposta correta é a opção A (Kratos)
+  },
+  {
+    pergunta: "Qual jogo popular de sobrevivência coloca os jogadores em uma ilha cheia de dinossauros?",
+    respostas: [
+      "ARK: Survival Evolved",
+      "Rust",
+      "Subnautica",
+    ],
+    correta: 0 // A resposta correta é a opção A (ARK: Survival Evolved)
+  },
+  {
+    pergunta: "Em qual jogo os jogadores controlam um personagem chamado 'Geralt de Rivia' em busca de sua filha adotiva?",
+    respostas: [
+      "The Witcher 3: Wild Hunt",
+      "Dark Souls",
+      "Assassin's Creed Odyssey",
+    ],
+    correta: 0 // A resposta correta é a opção A (The Witcher 3: Wild Hunt)
+  },
+  {
+    pergunta: "Qual é o nome do protagonista da série de jogos 'Assassin's Creed'?",
+    respostas: [
+      "Ezio Auditore",
+      "Connor Kenway",
+      "Altair Ibn-La'Ahad",
+    ],
+    correta: 0 // A resposta correta é a opção A (Ezio Auditore)
+  },
+];
   
   const quiz = document.querySelector("#quiz")
   const template = document.querySelector("template")
